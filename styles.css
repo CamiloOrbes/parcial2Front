@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #b29cb9;
+}
+nav {
+    background-color: #3dc924;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logoem {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.barra ul{
+    margin-left: 120px;
+    display: flex;
+    justify-content: center; 
+}
+
+.barra li{
+    display: inline;
+    margin-right: 20px;
+    border-left: 3px solid #b134db;
+    border-right: 3px solid #b134db;
+    border-bottom: 3px solid #b134db;
+    border-top: 3px solid #b134db;
+}
+
+.barra a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.barra a:hover {
+    border-bottom: 2px solid  #b134db;
+}
+
+.busq{
+    padding: 10px;
+}
+.busq input[type="text"] {
+    padding: 5px;
+  }
+
+.busq button {
+  padding: 5px 10px;
+  background-color: #b134db;
+  color: white;
+  
+}
+main {
+    margin-top: 200px;
+    margin-bottom: 300px;
+    text-align: center; 
+    background-color: rgb(118, 203, 105);
+  }
+
+
+footer {
+    background-color: #b134db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
